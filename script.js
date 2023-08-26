@@ -106,7 +106,7 @@ function payOrder() {
 // ThankYOU Fucntion
 
 function thankyouFnc() {
-    alert("Welcome to Acciojob");
+    alert("Thanks & Welcome to Your Restaurant");
 }
 
 
