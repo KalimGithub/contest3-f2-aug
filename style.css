@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Inter&family=Mada&family=Poppins&family=Rubik&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+/* sidebar css from here */
+.sidebar {
+    position: sticky;
+    height: 100vh;
+    background-color: rgb(12, 14, 16);
+    padding: 0px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sidebar>h4 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 30px;
+    font-style: poppins;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.sidebar>ol>li {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    padding: 0px;
+}
+
+.logo>p {
+    color: brown;
+    /* font-weight: 300px; */
+}
+
+.logo>img {
+    top: 32px;
+    left: 33px;
+    width: 12vw;
+    height: auto;
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+.more-about-us {
+    margin-bottom: 20%;
+}
+
+
+
+
+
+
+/* main section from here */
+.main-section {
+    /* flex: 1; */
+    /* padding: 100px; */
+    background-color: rgb(17, 19, 21);
+    color: white;
+    width: 100vw;
+    /* height: 100%; */
+}
+
+/* navbar from here */
+
+.navbar {
+    background-color: rgb(28, 26, 26);
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+}
+
+.navbar>button {
+    background-color: #FF2424;
+    border: none;
+    border-radius: 2px;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar>img {
+    width: 3rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.search {
+    width: 55vw;
+    background-color: #272A30;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-inline: 10px;
+}
+
+.search-div {
+    background-color: #272A30;
+    background: none;
+    margin-inline: 5px;
+}
+
+/* hero-image */
+.hero-img1 {
+    margin: 10px;
+}
+
+#hero-img {
+    margin-left: 20px;
+    width: 75vw;
+    /* align-items:center; */
+    height: 45vh;
+}
+
+/* menu-section */
+
+
+
+
+/* cards from here */
